@@ -9,11 +9,11 @@ nav{
 }
 
 .menu-item{
-    font-size: 13px;
+    font-size: 17px;
     color: rgba(0, 0, 0, 0.87);
     text-decoration: none;
     position: relative;
-    top: -6px;
+    top: 0px;
     margin-right: 16px;
 
 }
@@ -21,8 +21,8 @@ nav{
 #profile{
     border-radius: 40px;
     position: relative;
-    top:8px;
-    left:-5px;
+    top:4px;
+    left:-10px;
 }
 
 .menu-item:hover{
@@ -39,7 +39,8 @@ nav{
 #app-dropdown{
     width: 265px;
     padding-top: 25px;
-    padding-right: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
     border: 1px solid #ccc;
     box-shadow: 0 2px 10px rgba(0,0,0,.2);
     position: absolute;
@@ -48,6 +49,10 @@ nav{
     top:22px;
     height:200px;
     display: none;
+    text-align: center;
+    background-color: white;
+    
+    
 }
 
 #dropdown-wrapper{
@@ -55,14 +60,14 @@ nav{
     position: relative;
     left: 0;
     right:190px;
-    top: 10px;
+    top: 12px;
     cursor: pointer;
     
 } 
 
 
 #dropdown-wrapper:hover #app-dropdown{
-
+    /* border: 1px solid black; */
     display: block;
 }
      
@@ -74,16 +79,15 @@ nav{
     display:inline-block;
     width: 84px;
     margin-bottom: 18px;
-    padding: 8px 2px;
+    /* padding: 8px 2px; */
     cursor: pointer;
     align-items: center;
-
     padding: 0px;
     
 }   
     
 .app-item:hover{
-    border: 0px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     
 }
@@ -111,15 +115,21 @@ nav{
 }
 
 
-/* copy
-*/
+
+#google-div{
+    width: 100%;
+    text-align: center;
+    /* margin: 0px auto; */
+    /* background-color:lightblue; */
+}
+
 
 
 
 #google-img{
     width: 260px;
     height: 80px;
-    margin-left:35%;
+    /* margin: 0px auto; */
     margin-top: 15%;
     cursor: pointer;
     text-align: center;
@@ -129,8 +139,10 @@ nav{
 #input-wrapper{
     position: relative;
     width:582px;
-    margin-left:25%;
-    
+    /* margin-left:25%; */
+    margin: 0 auto;
+    text-align: center;
+    /* padding: 0px auto; */
 }
 
 .input-box{
@@ -144,10 +156,13 @@ nav{
     font-size: 13px;
 
     padding: 14px;
+    /* padding-top: ; */
+    /* padding: 14px 54px; */
 
     border-radius: 24px;
 
     outline: none;
+    /* text-align: center; */
 
 }
 
@@ -164,12 +179,12 @@ nav{
     width: 28px;
 }
 
+
+
 #div-msg{
-    text-align: center;
+    
     margin-top: 36px;
-    position: relative;
-    right: 60px;
-   
+    text-align: center;
 
 }
 
@@ -211,6 +226,7 @@ nav{
     border-bottom: 1px solid rgb(204, 195, 195);
     padding: 15px;
     color:rgb(120, 123, 124);
+    
 }
 
 #last-div2{
@@ -246,5 +262,19 @@ nav{
     padding-left: 10px;
     padding-right: 10px;
     color:rgb(120, 123, 124);
+    cursor: pointer;
 }
+
+#span-gap0{
+    cursor:pointer;
+}
+
+#span-gap0:hover{
+    text-decoration: underline;
+}
+
+#span-gap:hover{
+    text-decoration: underline;
+}
+
 
